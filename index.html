@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Himanshu Dhande - Java Full Stack Developer Portfolio">
+  <title>Himanshu Dhande | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="#home" class="logo">Himanshu Dhande<span>.</span></a>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#activities">Activities</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section class="hero section" id="home">
+    <div class="hero-content">
+      <p class="eyebrow">COMPUTER ENGINEERING STUDENT</p>
+
+      <h1>Hi, I'm <span class="gradient">Himanshu Dhande</span></h1>
+
+      <h2>I'm an aspiring <span id="typing"></span><span class="cursor">|</span></h2>
+
+      <p class="description">
+        I am a Computer Engineering student passionate about software
+        development, web technologies and building useful applications.
+        I enjoy learning new technologies and solving problems through code.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="./Himanshu_Dhande_Software_Engineer.pdf" target="_blank" class="btn outline">View Resume <i class="fa-regular fa-file-pdf"></i></a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://github.com/himanshu-dhande" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/himanshu-dhande-0084392a8" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:himanshudhande0011@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+
+      <div class="profile-card">
+        <div class="profile-icon"><i class="fa-solid fa-code"></i></div>
+        <p class="profile-label">HELLO, WORLD!</p>
+        <h3>Building the<br><span class="gradient">Future with Code</span></h3>
+        <p class="code-line"><span>const</span> developer = "Himanshu";</p>
+        <p class="code-line"><span>let</span> learning = "Every Day";</p>
+        <p class="code-line"><span>return</span> creativity + logic;</p>
+        <div class="tags"><span>Java</span><span>React</span><span>SQL</span></div>
+      </div>
+
+      <div class="floating-icon java"><i class="fa-brands fa-java"></i></div>
+      <div class="floating-icon database"><i class="fa-solid fa-database"></i></div>
+      <div class="floating-icon terminal"><i class="fa-solid fa-terminal"></i></div>
+    </div>
+
+    <a href="#about" class="scroll-down"><i class="fa-solid fa-arrow-down"></i> Scroll to explore</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section-heading">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span class="gradient">Me</span></h2>
+      <p>A little about my journey and what I love to build.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-mark">
+        <img src="./Photo.jpeg" alt="Himanshu Dhande" class="profile-photo"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="photo-fallback">HD<span>.</span></div>
+        <p>Learn. Build. Improve.</p>
+      </div>
+
+      <div class="about-content">
+        <h3>Turning ideas into <span class="gradient">working solutions.</span></h3>
+
+        <p>
+          I'm pursuing B.E. in Computer Engineering at SSBT's College of
+          Engineering and Technology, with expected graduation in 2027.
+          I'm interested in software development, web technologies and databases.
+        </p>
+
+        <p>
+          I'm currently training in Java Full Stack Development at Fortune
+          Cloud Technologies, Pune. I enjoy exploring new technologies,
+          drawing, creating projects and improving my problem-solving skills.
+        </p>
+
+        <div class="about-details">
+          <div><i class="fa-solid fa-graduation-cap"></i><span><b>Education</b><small>B.E. Computer Engineering</small></span></div>
+          <div><i class="fa-solid fa-location-dot"></i><span><b>Location</b><small>Pune, Maharashtra</small></span></div>
+          <div><i class="fa-solid fa-code"></i><span><b>Career Goal</b><small>Java Full Stack Developer</small></span></div>
+          <div><i class="fa-solid fa-calendar"></i><span><b>Graduation</b><small>2027</small></span></div>
+        </div>
+
+        <a href="Himanshu_Dhande_Software_Engineer.pdf" class="btn primary" download>
+          Download Resume <i class="fa-solid fa-download"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-heading">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>Technical <span class="gradient">Skills</span></h2>
+      <p>Technologies I use and continue to learn.</p>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+        <h3>Programming</h3>
+        <div class="tags"><span>Java</span><span>C</span><span>Python</span><span>JavaScript</span></div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon pink"><i class="fa-solid fa-window-maximize"></i></div>
+        <h3>Frontend</h3>
+        <div class="tags"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>React.js</span></div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon blue"><i class="fa-solid fa-server"></i></div>
+        <h3>Backend</h3>
+        <div class="tags"><span>Spring Boot</span><span>REST APIs</span><span>Node.js</span><span>Express.js</span></div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon green"><i class="fa-solid fa-database"></i></div>
+        <h3>Database & Tools</h3>
+        <div class="tags"><span>MySQL</span><span>MongoDB</span><span>Git</span><span>GitHub</span><span>Postman</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="section-heading">
+      <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+      <h2>Featured <span class="gradient">Projects</span></h2>
+      <p>Practical projects showcasing my development skills.</p>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-preview preview-ai"><i class="fa-solid fa-file-circle-check"></i><span>AI / WEB APP</span></div>
+        <div class="project-body">
+          <p class="project-number">01 / FULL STACK</p>
+          <h3>AI Resume Analyzer</h3>
+          <p>Analyzes resumes, extracts skills and helps users discover relevant job opportunities.</p>
+          <div class="tags"><span>React.js</span><span>Node.js</span><span>MongoDB</span><span>Gemini API</span></div>
+          <a class="project-link" href="https://github.com/himanshu-dhande" target="_blank">Explore Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-preview preview-employee"><i class="fa-solid fa-people-arrows-left-right"></i><span>JAVA / WEB APP</span></div>
+        <div class="project-body">
+          <p class="project-number">02 / FULL STACK</p>
+          <h3>Employee Skills & Internal Mobility</h3>
+          <p>Helps manage employee skills, identify skill gaps and explore internal opportunities.</p>
+          <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
+          <a class="project-link" href="https://github.com/himanshu-dhande/Employee-Skills-and-Internal-Mobility-Platform" target="_blank">Explore Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-preview preview-rental"><i class="fa-solid fa-shirt"></i><span>E-COMMERCE</span></div>
+        <div class="project-body">
+          <p class="project-number">03 / WEB DEVELOPMENT</p>
+          <h3>Fab Rental</h3>
+          <p>An online clothing rental system with browsing, searching, wishlist and rental features.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="project-link" href="https://github.com/himanshu-dhande" target="_blank">Explore Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-preview preview-data"><i class="fa-solid fa-chart-column"></i><span>DATA VISUALIZATION</span></div>
+        <div class="project-body">
+          <p class="project-number">04 / DATA ANALYTICS</p>
+          <h3>Titanic Visualization Dashboard</h3>
+          <p>A data visualization project exploring passenger data and useful patterns.</p>
+          <div class="tags"><span>Python</span><span>Data Analysis</span><span>Visualization</span></div>
+          <a class="project-link" href="https://github.com/himanshu-dhande/Titanic-Visualization-Dashboard" target="_blank">Explore Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="center-action">
+      <a href="https://github.com/himanshu-dhande" target="_blank" class="btn outline">More on GitHub <i class="fa-brands fa-github"></i></a>
+    </div>
+  </section>
+
+  <!-- EDUCATION AND TRAINING -->
+  <section class="section training" id="education">
+    <div class="section-heading">
+      <p class="eyebrow">MY LEARNING JOURNEY</p>
+      <h2>Education & <span class="gradient">Training</span></h2>
+      <p>Building knowledge through education and practical learning.</p>
+    </div>
+
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">SEP 2026 – PRESENT</div>
+        <div class="timeline-card">
+          <span class="timeline-label">CURRENT TRAINING</span>
+          <h3>Trainee Java Full Stack Developer</h3>
+          <h4>Fortune Cloud Technologies · Pune</h4>
+          <p>Learning frontend development, Java, Spring Boot, REST APIs and database integration through practical exercises.</p>
+          <div class="tags"><span>Java</span><span>Spring Boot</span><span>Web Development</span><span>SQL</span></div>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023 – 2027</div>
+        <div class="timeline-card">
+          <span class="timeline-label">EDUCATION</span>
+          <h3>Bachelor of Technology in Computer Science</h3>
+          <h4>SSBT's College of Engineering & Technology</h4>
+          <p>Building a foundation in programming, databases, software engineering and web development.</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2021 – 2023</div>
+        <div class="timeline-card">
+          <span class="timeline-label">EDUCATION</span>
+          <h3>Higher Secondary Certificate (HSC) – Science</h3>
+          <h4>Dhanaji Nana Junior College, Khiroda</h4>
+          <p>Completed HSC with 87.88% and secured 1st Rank.</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2015 – 2021</div>
+        <div class="timeline-card">
+          <span class="timeline-label">EDUCATION</span>
+          <h3>Secondary School Certificate (SSC)</h3>
+          <h4>Dhanaji Nana Vidyalaya, Khiroda</h4>
+          <p>Completed secondary education with 85.50%.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  
+
+
+<div class="activities-grid">
+
+  <article class="activity-card">
+    <div class="activity-top">
+      <div class="activity-icon art-icon">
+        <i class="fa-solid fa-palette"></i>
+      </div>
+      <span class="activity-number"></span>
+    </div>
+
+    <p class="activity-label">Extracurricular Activitie</p>
+    <h3>Drawing & Art Portfolio</h3>
+
+    <p class="activity-description">
+      Explore my collection of drawings, artistic work and creative
+      designs. My artwork reflects imagination, patience and attention
+      to detail.
+    </p>
+
+    <div class="activity-info">
+      <span><i class="fa-solid fa-paintbrush"></i> Drawing</span>
+      <span><i class="fa-solid fa-lightbulb"></i> Creativity</span>
+      <span><i class="fa-regular fa-file-pdf"></i> PDF Portfolio</span>
+    </div>
+
+    <a href="documents/my-art.pdf" target="_blank"
+       rel="noopener noreferrer" class="explore-btn">
+      Explore My Art <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+  </article>
+
+  <article class="activity-card">
+    <div class="activity-top">
+      <div class="activity-icon certificate-icon">
+        <i class="fa-solid fa-award"></i>
+      </div>
+      <span class="activity-number"></span>
+    </div>
+
+    <p class="activity-label">LEARNING & ACHIEVEMENTS</p>
+    <h3>Certificates & Courses</h3>
+
+    <p class="activity-description">
+      Explore my technical certificates, training programs and online
+      courses that demonstrate my interest in continuous learning
+      and software development.
+    </p>
+
+    <div class="activity-info">
+      <span><i class="fa-solid fa-laptop-code"></i> Technical Learning</span>
+      <span><i class="fa-solid fa-graduation-cap"></i> Courses</span>
+      <span><i class="fa-regular fa-file-pdf"></i> PDF Collection</span>
+    </div>
+
+    <a href="documents/my-certificates.pdf" target="_blank"
+       rel="noopener noreferrer" class="explore-btn">
+      Explore Certificates <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+  </article>
+
+</div>
+
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-panel">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have an opportunity in <span class="gradient">mind?</span></h2>
+      <p>I'm interested in entry-level software development opportunities, internships and collaborating on technology projects.</p>
+      <a href="mailto:himanshudhande0011@gmail.com" class="btn primary">Let's Talk <i class="fa-regular fa-paper-plane"></i></a>
+
+      <div class="contact-links">
+        <a href="mailto:himanshudhande0011@gmail.com"><i class="fa-regular fa-envelope"></i> Email</a>
+        <a href="https://linkedin.com/in/himanshu-dhande-0084392a8" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/himanshu-dhande" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#home" class="logo">HD<span>.</span></a>
+  <p>Designed & built by Himanshu Dhande</p>
+  <a href="#home" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
